@@ -1,0 +1,65 @@
+Eunseo Park: 
+    age 23
+    SSN: 122-33-4455
+    cell: (908)367-4459
+
+Liz Davidson: 
+    age 50
+    SSN: 222-33-4444
+    cell: (201)555-1234
+
+Joel Littenberg: 
+    age 31
+    SSN: 232-77-3223
+    cell: (212)445-9087
+
+Abdul Wassan: 
+    age 34
+    SSN: 321-78-5555
+    cell: (215)338-3106
+
+Dan Davidson: 
+    age 20
+    SSN: 333-11-2222
+    cell: (732)567-1234
+
+Kumar Venkatesh: 
+    age 22
+    SSN: 333-44-5555
+    cell: (732)444-1212
+
+Stefano Mariotti: 
+    age 19
+    SSN: 444-11-7777
+    cell: (503)237-1662
+
+Ravpreet Singh: 
+    age 18
+    SSN: 456-23-0987
+    cell: (908)622-1498
+
+Mary Davidson: 
+    age 27
+    SSN: 543-43-4321
+    cell: (201)545-3312
+
+Sofia Berrios: 
+    age 34
+    SSN: 555-44-3333
+    cell: (908)876-5544
+
+Beatriz Berrios: 
+    age 40
+    SSN: 654-33-5566
+    cell: (732)281-3998
+
+LiPing Sun: 
+    age 34
+    SSN: 888-44-5555
+    cell: (213)222-4321
+
+Faisal Wassan: 
+    age 26
+    SSN: 888-77-6666
+    cell: (215)999-7722
+

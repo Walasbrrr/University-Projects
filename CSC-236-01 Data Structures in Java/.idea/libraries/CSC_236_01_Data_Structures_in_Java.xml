@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="CSC-236-01 Data Structures in Java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bookFiles.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Walen_Calderon Lab2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

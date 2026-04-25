@@ -1,0 +1,118 @@
+[[Paginas web]]
+Cascading style sheets.
+
+Css basico.
+
+Como se integra css? 
+
+debes de abrir un folder llamada CSS donde irian los archivos css, hasta ahora todo lo visto en HTMl han sido atributos pero ahora accederemos a las propiedades de CSS y aprenderemos a como acceder a ellas.
+
+CSS tiene una sintaxys  diferente a la de html y eso conlleva a que la forma de escribir css es muy distinta a la forma de escribir html.
+
+existen tres formas de enlazar css de forma que afecte a los elementos de html:
+
+1-  estilos en linea: son los estilos que normalmente se dan en una sola linea de codigo por ejemplo
+<p style="color:red"> (lo malo es que tiene malas practicas lo mejor es hacer que cada lenguaje este en su seccion en especifico y no mezclarlos)>
+
+2- tambien podemos usar style no como atributo si no como etiqueta ejemplo:
+
+<style>
+
+</style>
+
+poniendo un ejemplo si yo quisiera que todos  los p tuvieran un estilo en especifico podria usar
+
+<style>
+	p {
+		color: red
+		}
+	h1 {color:blue
+	}
+</style>
+
+Aun asi hacer esto tampoco se recomienda se recomienda mas tenerlo todo en archivos separados
+
+3- estilo linkeado: esta es la forma mas eficiente y mas utilizada por las mejores paginas web que se basa en linkear una pagina de estilos y esta hoja de estilos suele ponerse en el head
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>enlazando CSS</title>
+	<link rel="stylesheet" href="styles.css" (en este caso es asi por que el nombre de la carpeta seria equivalente a el resultado del href)>
+</head>
+<body>
+
+</body>
+</html>
+
+haciendo lo hecho anteriormente con el <link> y etc, lograriamos conectar los estilos con la estructura y solo tendriamos que usar css en su respectivo archivo por ejemplo en el archivo de css pondriamos:
+
+p {
+    color: red;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+Eso deberia hacer que la letra que se muestra en el archivo index cambie tanto su fuente, tamaño y color
+
+lo primero que se hace en un archivo CSS es poner un selector y hay muchas formas de seleccionar elementos que veremos a continuacion en la proxima seccion pero la forma mas normal de seleccionar elementos es por el nombre en este caso se estan seleccionando todos los elementos [<p>] ejemplo:
+
+- (la p seria el selector que seria el nombre del elemento que vendria siendo un parrafo <p>)  -->p
+
+- (luego se abrerian las llaves que dan a entender que se esta abriendo un bloque y las llaven inician y terminan el bloque y si te preguntas de que es el bloque seria un bloque de declaraciones)--> { }
+
+- (luego ya seria empezar a declarar que propiedad queremos que se modifique y cual seria su valor que en este ejemplo seria)--> color: blue;
+
+p{
+color:blue;
+}
+
+SELECTORES
+los selectores son los que nos ayudan a seleccionar uno o varios elementos de eleccion que queremos modificar en CSS
+
+existen tres formas importantes de seleccionar elementos en CSS
+
+1- seleccion por elemento: esto modifica las propiedades de los elementos en tu html por nombre y esto se aplica incluso si creamos nuevos elementos por ejemplo
+
+[index]
+
+<nuevoelemento>jaja</nuevoelemento>
+
+[css]
+nuevoelemento{
+color: red;
+}
+
+esto nos permitiria modificar el contenido de el nuevo elemento(crear tus propios elementos es una mala practica y aqui solo se usa de ejemplo)
+
+Ahora haremos listas y vamos a crear ingredientes, vamos a hacer de cuenta que estamos creando una pagina web de algun tipo de receta
+
+<ul>
+	<li> harina </li>
+	<li> aceite</li>
+	<li>sal</li>
+	<li>leche</li> 
+</ul>
+actual mente retomo el curso.
+
+en css existe la creacion de clases las clases normal mente son otra forma de seleccionar los elementos a personalisar enjemplo estas haciendo llevando una receta y quieres enmarcar  los elementos faltantes usarias las clases y crearias una llamada "faltantes" ejemplo:
+
+<ul>
+<li class= "ingrediente-faltante"> harina</li>
+<li>huevo </li>
+<li>pan </li>
+<li class="ingrediente-faltante">leche</li>
+</ul>
+
+.ingrediente-faltante{
+
+color: red;
+}
+
+en el codigo anterior basicamente estaria creando la clase faltantes y estaria haciendo que todo lo de dentro de esa clase sea rojo (recordar que si es una clase debes especificarselo a tu editor de codigo y poner el . al principio para que el CSS lo identirfique como clase) y es necesario que sea una clase descriptiva para que otros desarrolladores puedan comprende cual es su funcion
+
+existen los selectores ID que existen para seleccionar una sola cosa en toda la pagina y normal mente es un elemento clave
+
+
+
+

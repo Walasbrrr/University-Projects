@@ -1,0 +1,1 @@
+este tendra los links relacionados a esta clase en español

@@ -1,0 +1,1 @@
+this will have the links related to this class on english [[Trying lattex]]

@@ -1,0 +1,501 @@
+[[Paginas web]] **Lenguaje de Marcado de Hipertexto (HTML)**es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.**** 
+
+(html basico)
+**
+***Que se de HTML?***
+
+- es un lenguaje que se organiza utilizando etiquetas que te ayudan a entender intuitivamente y no identifica entre myusculas y minusculas (no se si se aplica en variables) como por ejemplo (
+<buttom> boton
+<p> parrafo
+<table> tabla
+ <img> imagen
+
+- existen distintos tipos de etiquetas, hasta ahota conozco las contenedoras y las abiertas por ejemplo:
+<buttom> </bottom> es una etiqueta contenedora
+<img src="insertar link de preferencia" es una etiqueta abierta ya que no se necesita el cierre que en mi conocimiento vendria siendo el <nombre de la etiqueta> contenido </nombre de la etiqueta>
+
+- es usualmente usado con JavaScript y CSS, JavaScript siendo para la funcionalidades, CSS para diseño y HTML para la estructura.
+
+- en la estructura de HTML tiene siempre una etiqueta llamada<head>contenido</head> que es la encargada de hacer los encabezados (Titulos) y se pueden distribuir en funcion de importancia llendo del <h1></h1> a el <h6></h6>
+
+- se pueden hacer comentarios dentro del codigo para organizarlo utilizando la etiqueta <!-- hola esto es un comentario de organizacion --> para lograrlo se utilizaan las etiquetas <!-- --> y sirven tambien para desactivar partes de codigo que no deseas que funciones pero tampoco eliminar
+
+**Solo Learn clases**
+
+ - Las normas y mejores practicas son utilizadas para lograr
+1- paginas web compatibles con diferentes navegadores y dispositivos
+2- un trabajo en equipo y colaboracion mas efectivos
+
+- La **etiqueta contenedora <body>** se utiliza para agrupar todo lo que se muestra en una página cuando se carga en un navegador.
+
+Completa el código para crear el cuerpo de la página
+
+<body>
+
+<h1>Best Practices</h1>
+
+<p>Compatibility and collaboration</p>
+
+</body>////////////////////////////
+
+- **Las etiquetas de body** son necesarias para que tu página sea compatible con **todos** los navegadores web
+
+Una página web solo puede contener un elemento de cuerpo
+
+Completa el código del cuerpo de la página
+
+<body>
+
+<h1>Best Practices</h1>
+
+<p>Compatibility and collaboration</p>
+
+</body>////////////////////////////
+
+- Todos los elementos de contenido que necesitas mostrar (como párrafos, encabezados, botones e imágenes) deben estar dentro de **la etiqueta contenedora <body>.**
+
+Reordena las líneas de código para crear el cuerpo de la página
+
+<body>
+
+<p>The content of the page</p>
+
+</body>////////////////////////////
+
+- **Algunas etiquetas deben colocarse dentro de otras y a eso se le llama anidamiento ////////////////////////////**
+
+**- Los sitios web hacen más que simplemente mostrar contenido. **La etiqueta de cabeza** <head> se utiliza para incluir información técnica sobre la página.**
+
+Completa el código
+
+`<head>
+
+<meta name="author" content="Karolina">
+
+</head>`
+
+<body>
+
+<p>The content of the page</p>
+
+</body>////////////////////////////
+
+- **La Web no sería posible sin el **HiperTexto**.== **HiperTexto** es lo que permite a los usuarios saltar de una página web a otra a través de enlaces.**
+
+**En esta lección, aprenderás a conectar páginas web con **hipervínculos****
+
+**HiperTexto** es texto que contiene un enlace a otra página.
+
+Las páginas web se llaman documentos **HiperTexto** porque están conectadas por Hipervinculos
+
+**Los hipervínculos** permiten a los usuarios:
+
+1. moverse de una página web a otra
+
+2. compartir información entre diferentes máquinas y sistemas
+
+**La etiqueta de anclaje <a>** se utiliza para crear un hipervínculo en una página web.
+
+**La etiqueta <a>** es una etiqueta contenedora.
+
+eso significa que requiere tanto etiquetas de apertura como de cierre
+
+Los hipervínculos se utilizan para enlazar una página web con otras. Para crear un enlace, necesitas "href" para agregar la URL de destino.
+
+**href** significa referencia **HiperTexto**.
+
+Completa la línea de código para crear un hipervínculo
+
+<a href ="url">Z</a>
+
+La URL debe estar encerrada entre comillas para funcionar sin errores. Si olvidas agregar **href** o las comillas, la etiqueta <a> no creará un hipervínculo.
+
+<a href= 'url'>Z</a>
+
+También puedes utilizar hipervínculos para conectar páginas del mismo sitio web.
+
+La parte de la URL que se mantiene igual para todas las páginas de un sitio web es el **nombre de dominio** (por ejemplo, sololearn.com).
+
+HTML significa **HyperText Markup Language.**
+
+El término "HyperText" se debe a que las páginas web tienen enlaces.
+
+"Markup" se refiere a los símbolos como</>. ////////////////////////////
+
+
+- En el desarrollo web moderno, las listas son elementos muy útiles.
+
+Incluso puedes usar listas para crear menús de navegación.
+
+Una **lista** consiste en **elementos de lista <li>.**
+
+<img src= ![img-component](https://lecontent.sololearn.com/material-images/a21cd2034fa8481a982cad8e40e33c8c-list.png)
+
+(Imagen de la pagina)
+
+<li>Item 1</li>
+
+<li> Item 2</li>
+
+<li>Item 3</li>
+
+**Los elementos de lista** son etiquetas contenedoras.
+
+eso significa que requiere tanto etiquetas de apertura como de cierre
+
+<li>Item 1</li> 
+
+<li>Item 2</li>
+
+<li>Item 3</li>
+
+<img src=![img-component](https://lecontent.sololearn.com/material-images/32eb472e6e874a4587dd72bf0bbe53c4-ordered.png) 
+
+(imagen de la pagina)
+
+**Las listas ordenadas <ol>** se muestran con números (1, 2, 3...) en lugar de símbolos de viñetas. Usa <ol> cuando los puntos tengan un cierto orden, como instrucciones paso a paso. Completa el código para crear una **lista ordenada.**
+
+<ol>
+
+<li>Coffee</li>
+
+<li>Tea</li>
+
+<li>Milk</li>
+
+</ol>
+
+Las listas también son etiquetas de contenedor, con los elementos de lista anidados dentro.
+
+<ol>
+
+<li>Coffee</li>
+
+<li>Tea</li>
+
+<li>Milk</li>
+
+</ol>
+
+Usa **listas no ordenadas <ul>** cuando el orden de los elementos no sea importante. Se muestran con viñetas.
+
+<ul>
+
+<li>Coffee</li>
+
+<li>Tea</li>
+
+<li>Milk</li>
+
+</ul>
+
+Puedes anidar una lista dentro de otra lista.
+
+Ejecuta el código para ver lo que mostrará el navegador web
+
+CODE PLAYGROUND: HTML
+
+```html
+<ol>
+  <li>Fruits</li>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+    </ul>
+  <li>Milk</li>
+  <li>Cheese</li>
+</ol> 
+
+Una lista puede contener cualquier cantidad de elementos. Completa el código
+
+<p>5 climate groups:</p>
+
+<ul>
+
+<li>Tropical</li>
+
+<li>Dry</li>
+
+<li>Mild</li>
+
+<li>Continental</li>
+
+<li>Polar</li>
+
+</ul>
+
+Completa el código
+
+<h1>The Four States of Matter</h1>
+
+<ol>
+
+<li>Solid</li>
+
+<li>Liquid</li>
+
+<li>Gas</li>
+
+<li>Plasma</li>
+
+</ol>
+
+La indentación se utiliza para mostrar elementos anidados.
+
+¿Qué muestra el código?
+
+```HTML
+<ol>
+  <li>First item</li>
+    <ul>
+      <li>Subitem A</li>
+      <li>Subitem B</li>
+    </ul>
+  <li>Second item</li>
+</ol>
+```
+
+Una lista ordenada anidada dentro de una lista no ordenada
+
+Una lista no ordenada anidada dentro de una lista ordenada
+
+Relaciona cada elemento con su etiqueta correcta
+
+Hipervínculo:
+
+<a>
+
+Lista ordenada:
+
+<ol>
+
+Lista no ordenada:
+
+<ul>
+
+Formato de subrayado:
+
+<u>
+
+Salto de línea:
+
+<br>
+
+Los atributos modifican los elementos HTML añadiendo información adicional.
+
+En esta lección, aprenderás a personalizar elementos con sus atributos.
+
+Los **atributos** pueden ser **opcionales** o **requeridos**. Ya conoces algunos atributos requeridos. La etiqueta de imagen requiere un atributo para funcionar correctamente.
+
+Completa la etiqueta de imagen
+
+<img src="http://www.img.png">
+
+Para las etiquetas contenedoras, los atributos siempre van en la etiqueta de apertura. La etiqueta de enlace es otro ejemplo de un elemento HTML que requiere un atributo para funcionar correctamente.
+
+Completa la etiqueta de enlace
+
+<a href="https://z.com">Z</a>
+
+En las etiquetas contenedoras, los atributos siempre van en la etiqueta de apertura
+
+Es una buena práctica describir lo que muestran las imágenes. El atributo **alt** (texto alternativo) se utiliza para agregar descripciones de imágenes.
+
+<img src="img_boy.jpg" 
+	 alt ="Boy in a hat">
+
+El atributo **alt** se puede...
+
+- leer en voz alta por lectores de pantalla
+
+- mostrar cuando la imagen no se carga
+
+- leer por motores de búsqueda
+
+
+Agregar **texto alternativo** a las imágenes hace que tu página sea más accesible
+
+Los atributos generalmente se presentan en pares de nombre/valor como:
+
+```HTML
+name="value"
+```
+
+Une los ejemplos:
+
+Nombre del atributo: src
+
+Valor del atributo: "http:www.image.png"
+
+
+La forma en que los visitantes
+
+navegan
+
+por tu sitio web tiene un gran impacto en la experiencia del
+
+usuario
+
+, en los
+
+rankings
+
+de los motores de búsqueda y, por lo tanto, incluso en las ventas.
+
+
+Los sitios web de
+
+varias páginas
+
+están compuestos por más de una página.
+
+
+Para
+
+navegar
+
+entre las páginas, el navegador web debe cargar diferentes archivos HTML
+
+La etiqueta de contenedor **<nav>** define un conjunto de enlaces que permiten al usuario navegar entre las páginas de un sitio web.
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+Los enlaces a las diferentes páginas se agregan con la etiqueta de anclaje <a> y se anidan dentro de la etiqueta de contenedor <nav>.
+
+<nav>
+
+<a
+
+href="index.html">Home</a>
+
+<a href="about.html">About
+
+</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+Un **sitio web de una sola página** tiene todo su contenido en la página de inicio. Cualquier enlace de navegación lleva al visitante a diferentes secciones (en lugar de cargar nuevas páginas).
+
+Una página de inicio debe llamarse **index.html** para que el navegador web la encuentre y la cargue.
+
+Es una buena práctica nombrar tu página de inicio como **index.html** para que el navegador web pueda encontrarla y cargarla.
+
+¿Cuántos documentos HTML (o archivos) contendrá el proyecto de un sitio web de una sola página? 1
+
+
+Para saltar a una parte específica de un sitio web de una sola página, primero debes marcar la sección con el atributo **id**.
+
+Completa la línea de código para marcar el elemento de encabezado con un **id**
+
+<h2 id ="section-1">Section 1</h2>
+
+RUTAS en HTML
+
+rutas absolutas: son las rutas donde ponemos algo y es absoluto por donde se mire ejemplo, una foto en intagrama, un video de youtube, cosas absolutas (en general lo que esta subido ya en )
+
+Rutas relativas: son las rutas que dependientes de donde estan puedes acceder o no ejemplo: 
+
+si teemos un index.html y queremos acceder a desde un archivo en la misma carpete deberiamos poner:
+
+<a href= "index.html">Nombre de la ruta que se muestra al usuario</a>
+
+pero estas rutas son relativas por el hecho de que puedes moverlas entre carpetas por ejemplo: si mi carpeta de index la pusiera una carpeta antes deberia usar:
+
+<a href="../index.html">Nombre de la ruta que se muestra a el usuario></a>
+
+pero en el caso de que fuera una carpeta adelante seria:
+
+<a href="Nombre de la carpeta donde se encuentra/index.html">Nombre de la ruta que se muestra a el usuario></a>
+
+FORMULARIOS
+
+que son los formularios? son de las cosas mas importantes de html por que se basa en solicitud y respuesta todo, pero los formularios en especifico  son la manera en la que nos comunicamos pideindo datos con el usuario ya sea de pidiendo informacion mediante campos de texto a pedir colores, le podemos poner casillas o le podemos poner barritas para que digan del 1 al 100, ejemplos:
+
+
+<form></form> es la etiqueta que se usa
+(aun se debe definir que le pediremos al usuario)
+
+<input> es como la forma de decirle a la consola que te de un dato
+
+< input type="">(es la forma de decir que tipo de dato queremos pedir text, time etc...)
+
+entonces un ejemplo de un form completo seria 
+<input type= "text"> (es el mas comun de todos y es usado para campos de texto)
+
+<input type="submit"> seria el boton de enviar que nosotros podemos cambiar y por ejemplo podriamos ponerle de que:
+
+<input type= "text"  value= "nombre que quieras"> eso haria que nuestro boton de submit diga lo que queramos 
+
+<input type="color"> (nos pediria que seleccionemos un color)
+
+<input type="email"> debe tener texto antes y depues del arroba
+
+<input type= "password"> eso seria para una contraseña (si por algun motivo quisiera)
+
+<input type="checkbox"> eso seria para tildar y destildar, por ejemplo un aceptas terminos y condiciones?
+
+<input type= "radio"> nos permite seleccionar una de varias opciones (se configura para seleccionar solo algo de ejemplo 
+a, b y c)
+
+cuando presionan el enviar o el submir bottom se mandan los datos a un sevidor para que se pocesen y se haga algo (se guarda dentro del form) ejemplo quiero asegurarme de que tienes una cuenta en mi sitio web? bueno hago el input email, input password y luego recibo la informacion y la guardo en mi base de datos para luego dejarlo iniciar session
+
+<input type= "date"> es el ultimo de "los mas importantes" y es una forma de pedir la fecha.
+
+realmente existen un moton de tipos de input que investigar asi que tal vez siga actualizando 
+
+en general todo esto tiene un estilo predeterminado que luego podemos cambiar
+
+Existen 4 atributos de los inputs ademas de el type que son importantes que se conozcan
+
+[funcionalidad en atributos input importantes]
+1- <input type="text" required> es para obligar a el usuario a hacer la accion (basicamente si pongo el atributo el usuario no podra en viar el texto vacio)
+
+2- <input type="text" name="username"> este atributo es un identificador de los inputs, lo que hace es que cuando nosotros le mandamos un campo a el servidor algo va a recibirlos y procesarlo por eso ponemos nombre, para cuando el sevridor reciba los dator de "username en este ejemplo" es para identificar el campo y con ello saber si user name es correcto por ejemplo
+[/funcionalidad en atributos input importantes]
+
+[atributos esteticos]
+3- <input type="text" placeholder="Username"> este atributo es el quef necesitaba, se utilza para dejarle en claro a el usuario en claro con que rellenar cada campo, en general es la tipica letra que dice username por ejemplo y que al tocar el input desaparece.
+
+4-<input type='text' value='username'> esta etiqueta sirve de almacenamiento para el valor que introduzcan los usuarios luego se hablara de ello pero es super inportante (por ahora en lo personal supongo que es un da un valor relativo es como x en una operacion matematica puede una variable la que el valor depende de el usuario).
+[/tributos esteticos]
+
+etiquetas
+- The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document
+- The `<html>` element is the root element of an HTML page
+- The `<head>` element contains meta information about the HTML page
+- The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+- The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+- The `<h1>` element defines a large heading
+- The `<p>` element defines a paragraph
+
+- - All HTML elements can have **attributes**
+- The `href` attribute of `<a>` specifies the URL of the page the link goes to
+- The `src` attribute of `<img>` specifies the path to the image to be displayed
+- The `width` and `height` attributes of `<img>` provide size information for images
+- The `alt` attribute of `<img>` provides an alternate text for an image
+- The `style` attribute is used to add styles to an element, such as color, font, size, and more
+- The `lang` attribute of the `<html>` tag declares the language of the Web page
+- The `title` attribute defines some extra information about an element
+
+-<p>(https://www.w3schools.com/tags/tag_p.asp)|Defines a paragraph
+|[<hr>](https://www.w3schools.com/tags/tag_hr.asp)|Defines a thematic change in the content|
+|[<br>](https://www.w3schools.com/tags/tag_br.asp)|Inserts a single line break|
+|[<pre>](https://www.w3schools.com/tags/tag_pre.asp)|Defines pre-formatted text| 
+
+
+
+|[`<html>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)|Represents the root (top-level element) of an HTML document, so it is also referred to as the _root element_. All other elements must be descendants of this element.|
+
+
+(/html)
+

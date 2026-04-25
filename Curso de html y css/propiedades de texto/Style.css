@@ -1,0 +1,19 @@
+/* aqui iran las practicas de css y mis notas estaran en obsidian. */
+
+p{
+    color: red;
+    font-size: 20px;
+    font-family:Montserrat;
+    font-weight: bold;
+    font-style: oblique;
+    text-align:justify;
+    text-decoration: underline;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+h1{
+    text-align: center;
+}
